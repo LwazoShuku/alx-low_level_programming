@@ -6,8 +6,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints message 
- *                
+ * main - Prints message then a new line.
+ *
  * Return: Always 0.
  */
 int main(void)
