@@ -9,14 +9,14 @@
  * _puts - Prints a string to stdout.
  * @str: The string to be printed.
  */
-void _puts(char *str) 
+void _puts(char *str)
 {
-	int _putchar(char c);
+    int _putchar(char c);
 
-    	while (*str != '\0') 
-	{
-       		 _putchar(*str);
-        	str++;
-    	}
-    	_putchar('\n');
+    while (*str != '\0')
+    {
+        _putchar(*str);
+        str++;
+    }
+    _putchar('\n');
 }
