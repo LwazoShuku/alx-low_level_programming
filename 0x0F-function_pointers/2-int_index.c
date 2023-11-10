@@ -3,7 +3,7 @@
  * Auth: Lwazi Shangase
  */
 
-#include <stdlib.h>
+#include "function_pointers.h"
 
 /**
  * int_index - Looks for an integer within an array of integers.
