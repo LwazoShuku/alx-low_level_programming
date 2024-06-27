@@ -1,21 +1,30 @@
 /*
- * File: 0-isupper.c
- * Auth: Lwazi
+ * File: 0-main.c
+ * Auth: Lwazi Shangase
  */
 
-#include "main.h"
-
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
- * _isupper - Checks for uppercase characters.
- * @c: The character to be checked.
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
  *
- * Return: 1 if character is uppercase, 0 otherwise.
- */
-int _isupper(int c)
+ * Return: Always 0.
+*/
+int main(void)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
+	int n;
 
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
 	else
-		return (0);
+		printf("%d is zero\n", n);
+
+	return (0);
 }
