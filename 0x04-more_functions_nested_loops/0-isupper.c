@@ -1,13 +1,13 @@
 /*
  * File: 0-isupper.c
- * Auth: Lwazi Shangase
+ * Auth: Lwazi
  */
 
-#include "stdio.h"
+#include "main.h"
 
 /**
- * isupper - Checks for uppercase characters.
- * c: The character to be checked.
+ * _isupper - Checks for uppercase characters.
+ * @c: The character to be checked.
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
