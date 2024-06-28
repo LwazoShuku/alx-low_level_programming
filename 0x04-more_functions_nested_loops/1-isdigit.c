@@ -1,9 +1,9 @@
 /*
  * File: 1-isdigit.c
- * Auth: Lwazi Shangase
+ * Auth: Lwazi
  */
 
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _isdigit - Checks for a digit (0-9).
