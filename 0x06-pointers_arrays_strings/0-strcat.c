@@ -3,7 +3,7 @@
  * Auth: Lwazi Shangase
  */
 
-#include <stdio.h>
+#include "main.h"
 
 /**
  * strcat - Concatenates the string pointed to by @src and the terminating
