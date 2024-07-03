@@ -3,7 +3,7 @@
  * Auth: Lwazi Shangase
  */
 
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _strcmp - Compares pointers to two strings.
