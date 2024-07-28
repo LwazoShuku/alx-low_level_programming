@@ -1,7 +1,7 @@
 /*
  * File: _printf.c
  * Auth: Lwazi Shangase
- *       Partner Find
+ *       Rosemary Asune
  */
 
 #include "alx.h"
