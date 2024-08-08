@@ -1,6 +1,6 @@
 /*
- * Auth: Lwazi Shangase
  * File: 0-binary_to_uint.c
+ * Auth: Lwazi Shangase
  */
 
 #include "main.h"
